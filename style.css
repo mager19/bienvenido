@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800|Oxygen');
+
+body{
+	font-family: 'Oxygen', sans-serif;
+}
+
+.contenedor{
+	padding: 4em 0;
+}
+
+.header{
+	background-image:linear-gradient(rgba(80, 80, 80, 0.3), rgba(0,0,0, 0.9)), url('../img/background.jpg');
+	border-bottom: 10px solid #FAE689;
+	color:#fff;
+	display: flex;
+	font-family: 'Open Sans', sans-serif;
+	align-items: center;
+	align-content: center;
+	height: 40vh;
+	text-align: center;
+}
+
+.header h2{
+	font-size: 3.2em;
+	color:#FAE689;
+	font-weight: 800;
+	letter-spacing: 2px;
+}
+
+.header h3{
+	font-size: 1em;
+	letter-spacing: 1px;
+	margin-top: -5px;
+}
+
+h1{
+	color:#2C4355;
+	font-family: 'Open sans';
+	font-size: 1.8em;
+	font-weight: 800;
+	text-align: center;
+}
+
+.subtitle{
+	line-height: 2em;
+	margin: 2em 0;
+}
+
+blockquote{
+	background: #F8FAFB;
+	padding: 2em;	
+}
+
+blockquote h4{
+	line-height: 1.5em;
+	text-align: center;
+}
+
+.about ul li{
+	font-size: 1.2em;
+	font-weight: 600;
+	list-style: none;
+	margin-left: 3em;
+}
+
+.about ul li:before{
+	content: "\2713";
+	color:#329492;
+	font-family: 'Open sans';
+	font-size: 1.5em;
+	font-weight: bold;
+	display: block;
+	position: relative;
+	top:1.2em;
+	left: -1.8em;
+}
+
+.about__form{
+	background-color: #F8FAFB;
+	padding: 1em 2em;
+	margin-top: 2em;
+}
+
+.about__form input{
+	margin-bottom: 2em;
+}
+
+.temas{
+	background-color: #F8FAFB;
+	border-bottom: 10px solid #FAE689;
+}
+
+.temas h3{
+	padding-bottom: 0.3em;
+}
+
+#mc-embedded-subscribe{
+	background-color: #329492!important;
+}
+
+/*mailchimp*/
+#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
