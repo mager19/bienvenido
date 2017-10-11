@@ -9,7 +9,7 @@ body{
 }
 
 .header{
-	background-image:linear-gradient(rgba(80, 80, 80, 0.3), rgba(0,0,0, 0.9)), url('../img/fondo.jpg');
+	background-image:linear-gradient(rgba(80, 80, 80, 0.3), rgba(0,0,0, 0.9)), url('img/fondo.jpg');
 	border-bottom: 10px solid #FAE689;
 	color:#fff;
 	display: flex;
